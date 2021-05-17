@@ -63,3 +63,39 @@ body {
    border-radius: 2px;
    background-color: transparent;
 }
+.header__nav button:hover {
+   color: #061e37;
+   border: 1px solid #061e37;
+}
+
+.header__content {
+   margin-top: 175px;
+   display: flex;
+   padding-left: 80px;
+}
+.header__content-left {
+   max-width: 580px;
+}
+.header__content-left h1 {
+   font-size: 55px;
+   font-weight: 800;
+   max-width: 470px;
+   line-height: 1.18;
+   text-transform: uppercase;
+   margin-bottom: 30px;
+}
+.header__content-left span {
+   font-size: 18px;
+   max-width: 580px;
+   line-height: 1.94;
+}
+
+.header__content-right {
+   padding-right: 80px;
+   
+}
+.header__content-right iframe {
+   border-radius: 5px;
+   border: solid 1px #061e37;
+
+}
