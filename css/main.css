@@ -33,12 +33,25 @@ body {
 
 .header__nav {
    display: flex;
+   align-items: center;
    padding-top: 50px;
 }
 
 .header__logo {
    padding-left: 80px;
+   text-transform: uppercase;
+   display: flex;
 }
+.header__logo a {
+   color: white;
+   padding-left: 10px;
+}
+.header__logo-text {
+   font-weight: 800;
+   display: block;
+   
+}
+
 
 .header__link {
    margin: 0 auto;
@@ -47,7 +60,6 @@ body {
    color: white;
    margin: 0 25px;
    font-weight: 600;
-   vertical-align: middle
 }
 .header__link a:hover {
    color: #061e37;
@@ -84,7 +96,7 @@ body {
    text-transform: uppercase;
    margin-bottom: 30px;
 }
-.header__content-left span {
+.header__content-left p {
    font-size: 18px;
    max-width: 580px;
    line-height: 1.94;
@@ -92,10 +104,32 @@ body {
 
 .header__content-right {
    padding-right: 80px;
+   margin-left: auto;
    
 }
 .header__content-right iframe {
    border-radius: 5px;
    border: solid 1px #061e37;
+}
 
+.btn {
+   margin-top: 40px;
+}
+
+.btn__buy {
+   padding: 20px 40px;
+   background-color: #061e37;
+   font-family: 'Roboto', sans-serif;
+   text-transform: uppercase;
+   border-radius: 5px;
+   margin-right: 30px;
+   color: white;
+}
+.btn__try {
+   padding: 20px 40px;
+   background-color: white;
+   text-transform: uppercase;
+   border-radius: 5px;
+   color: #061e37;
+   font-weight: 800;
 }
