@@ -116,11 +116,11 @@ body {
    box-shadow: 0 4px 10px 0 #8c8c8c;
 }
 
-.btn {
+.btn__box {
    margin-top: 32px;
 }
 
-.btn__buy {
+.btn {
    padding: 20px 40px;
    background-color: white;
    text-transform: uppercase;
@@ -131,22 +131,13 @@ body {
    box-shadow: 0 4px 10px 0 #8c8c8c;
    margin-right: 24px;
 }
-.btn__try {
-   padding: 20px 30px;
-   background-color: white;
-   text-transform: uppercase;
-   border-radius: 5px;
-   color: #061e37;
-   font-size: 15px;
-   font-weight: 700;
-   box-shadow: 0 4px 10px 0 #8c8c8c;
-}
-.btn__hover:hover {
+
+.btn__style:hover {
    background-color: #061e37;
    color: white;
    transition: 0.2s;
 }
-.btn__hover:active {
+.btn__style:active {
    background-color: grey;
    color: #061e37;
 }
