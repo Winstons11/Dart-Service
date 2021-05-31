@@ -195,3 +195,12 @@ body {
    margin-top: 77px;
    font-size: 14px;
 }
+
+.counts {
+   display: flex;
+   justify-content: space-between;
+}
+.counts__cards {
+   height: 150px;
+   background-color: #80d8ff;
+}
