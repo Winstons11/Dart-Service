@@ -105,7 +105,9 @@ body {
    max-width: 580px;
    line-height: 1.94;
 }
-
+.header__content-right {
+   width: 600px;
+}
 .header__content-right iframe {
    border-radius: 5px;
    border: solid 1px #061e37;
