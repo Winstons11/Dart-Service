@@ -259,17 +259,23 @@ body {
    margin: 0 auto;
    line-height: 1.67;
    color: #b0bec5;
+   margin-bottom: 50px;
 }
 
 .services__rectangle {
    width: 800px;
-   height: 50px;
+   height: auto;
    box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.5);
-   display: flex;
    align-items: center;
    border-radius: 5px;
-   padding: 25px;
-   margin: 0 auto;
+   padding: 13px;
+   margin: 20px auto;
+}
+
+.services__box {
+   display: flex;
+   cursor: pointer;
+   align-items: center;
 }
 
 .rectangle__txt {
@@ -288,4 +294,21 @@ body {
 
 .rectangle__box {
    display: flex;
+   margin-top: 25px;
+}
+
+.rectangle__text p {
+   font-size: 15px;
+   text-align: left;
+   max-width: 470px;
+   margin-bottom: 0;
+   padding-left: 25px;
+   color: #061e37;
+}
+.rectangle__text p:first-child {
+   padding-bottom: 30px;
+}
+
+.active {
+   display: none;
 }
