@@ -86,6 +86,8 @@ body {
 .header__content {
    margin-top: 157px;
    display: flex;
+   justify-content: space-between;
+   position: relative;
 }
 .header__content-left {
    max-width: 580px;
@@ -105,9 +107,8 @@ body {
    line-height: 1.94;
 }
 
-.header__content-right {
-   margin-left: auto;
-   
+.header__content-right iframe {
+   position: absolute;
 }
 .header__content-right iframe {
    border-radius: 5px;
