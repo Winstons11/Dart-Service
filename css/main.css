@@ -290,6 +290,7 @@ body {
 }
 .icon__arrow {
    margin-left: auto;
+   background-color: transparent;
 }
 
 .rectangle__box {
@@ -307,4 +308,8 @@ body {
 }
 .rectangle__text p:first-child {
    padding-bottom: 30px;
+}
+
+.active {
+   display: none;
 }
