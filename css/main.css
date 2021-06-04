@@ -308,7 +308,3 @@ body {
 .rectangle__text p:first-child {
    padding-bottom: 30px;
 }
-
-.active {
-   display: none;
-}
