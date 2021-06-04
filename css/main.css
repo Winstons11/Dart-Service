@@ -276,6 +276,7 @@ body {
    display: flex;
    cursor: pointer;
    align-items: center;
+   user-select: none; 
 }
 
 .rectangle__txt {
@@ -294,8 +295,8 @@ body {
 }
 
 .rectangle__box {
-   display: flex;
    margin-top: 25px;
+   display: none;
 }
 
 .rectangle__text p {
@@ -311,5 +312,5 @@ body {
 }
 
 .active {
-   display: none;
+   display: flex;
 }
