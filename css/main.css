@@ -311,6 +311,6 @@ body {
    padding-bottom: 30px;
 }
 
-.active {
+.services__box.active ~ .rectangle__box {
    display: flex;
 }
