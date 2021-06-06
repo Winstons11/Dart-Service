@@ -5,4 +5,3 @@ for(item of accordions) {
       this.classList.toggle('active');
    });
 };
-

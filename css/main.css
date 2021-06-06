@@ -1,23 +1,82 @@
 /*Обнуление*/
-*{padding: 0;margin: 0;border: 0;}
-*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
-:focus,:active{outline: none;}
-a:focus,a:active{outline: none;}
-nav,footer,header,aside{display: block;}
-html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
-input,button,textarea{font-family:inherit;}
-input::-ms-clear{display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner{padding:0;border:0;}
-a,a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
-ul li{list-style: none;}
-img{vertical-align: top;}
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,
+:active {
+   outline: none;
+}
+a:focus,
+a:active {
+   outline: none;
+}
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+input::-ms-clear {
+   display: none;
+}
+button {
+   cursor: pointer;
+}
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+ul li {
+   list-style: none;
+}
+img {
+   vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: inherit;
+   font-weight: inherit;
+}
 /*--------------------*/
 
 body {
-   font-family: 'Raleway', sans-serif;
+   font-family: "Raleway", sans-serif;
    max-width: 1600px;
    margin: 0 auto;
 }
@@ -54,7 +113,6 @@ body {
    display: block;
    letter-spacing: 0.5px;
 }
-
 
 .header__link {
    margin-left: 295px;
@@ -210,16 +268,16 @@ body {
 }
 
 .cards__bg1 {
-   background-color: #80D8FF;
+   background-color: #80d8ff;
 }
 .cards__bg2 {
-   background-color: #82B1FF;
+   background-color: #82b1ff;
 }
 .cards__bg3 {
-   background-color: #B388FF;
+   background-color: #b388ff;
 }
 .cards__bg4 {
-   background-color: #EA80FC;
+   background-color: #ea80fc;
 }
 .counts__img {
    background-color: #fff;
@@ -233,7 +291,7 @@ body {
 }
 
 .counts__text {
-   font-family: 'Raleway', sans-serif;
+   font-family: "Raleway", sans-serif;
    color: white;
    font-size: 20px;
    font-weight: 800;
@@ -276,7 +334,7 @@ body {
    display: flex;
    cursor: pointer;
    align-items: center;
-   user-select: none; 
+   user-select: none;
 }
 
 .rectangle__txt {
@@ -317,4 +375,74 @@ body {
 
 .services__box.active button {
    transform: rotate(180deg);
+}
+
+.customers {
+   background-image: url(../img/bgCustomers.jpg);
+   margin-top: 100px;
+}
+
+.customers__content {
+   display: flex;
+}
+
+.customers__text h2 {
+   font-size: 45px;
+   font-weight: 600;
+   max-width: 445px;
+   color: white;
+   padding-top: 135px;
+   line-height: 1.2;
+}
+
+.customers__text p {
+   padding-top: 20px;
+   max-width: 515px;
+   line-height: 1.67;
+   color: white;
+   padding-bottom: 80px;
+   font-size: 15px;
+   margin-right: 165px;
+}
+
+.customers__text button {
+   margin-bottom: 110px;
+}
+
+.customers__cards {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 20px 0 20px 0;
+}
+
+.customers__cards button {
+   color: white;
+   font-size: 45px;
+   background-color: transparent;
+}
+.customers-card {
+   display: flex;
+   align-items: center;
+   
+}
+.customers-card-avatar {
+   padding-right: 50px;
+}
+.customers-card-text {
+   border-radius: 5px;
+   box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.15);
+   background-color: #ffffff;
+   padding: 30px; 
+   max-width: 650px;
+}
+.customers-card-text h4 {
+   font-size: 18px;
+   font-weight: 700;
+   padding-bottom: 20px;
+   color: #061e37;
+}
+.customers-card-text p {
+   line-height: 1.67;
+   color: #78909c;
 }
