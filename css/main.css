@@ -314,3 +314,7 @@ body {
 .services__box.active ~ .rectangle__box {
    display: flex;
 }
+
+.services__box.active button {
+   transform: rotate(180deg);
+}
