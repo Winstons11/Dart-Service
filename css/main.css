@@ -321,7 +321,7 @@ body {
 }
 
 .services__rectangle {
-   width: 800px;
+   max-width: 800px;
    height: auto;
    box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.5);
    align-items: center;
@@ -412,19 +412,29 @@ body {
 .customers__cards {
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
-   padding: 20px 0 20px 0;
+   justify-content: center;
 }
 
 .customers__cards button {
    color: white;
    font-size: 45px;
    background-color: transparent;
+   margin-left: 140px;
+   margin-right: 10px;
+   text-align: center;
+   cursor: pointer;
 }
+
+.customers-cards-box {
+   overflow: hidden;
+   height: 425px;
+   padding: 10px;
+}
+
 .customers-card {
    display: flex;
    align-items: center;
-   
+   padding-bottom: 70px;
 }
 .customers-card-avatar {
    padding-right: 50px;
@@ -433,7 +443,7 @@ body {
    border-radius: 5px;
    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.15);
    background-color: #ffffff;
-   padding: 30px; 
+   padding: 30px;
    max-width: 650px;
 }
 .customers-card-text h4 {
@@ -445,4 +455,25 @@ body {
 .customers-card-text p {
    line-height: 1.67;
    color: #78909c;
+}
+
+.team h2 {
+   font-size: 45px;
+   font-weight: 600;
+   color: #061e37;
+   margin-top: 100px;
+   text-align: center;
+   margin-bottom: 30px;
+}
+.team p {
+   text-align: center;
+   width: 555px;
+   margin: 0 auto;
+   line-height: 1.67;
+   color: #b0bec5;
+   margin-bottom: 50px;
+}
+
+.opacity0 {
+   display: none;
 }
