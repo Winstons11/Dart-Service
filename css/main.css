@@ -402,7 +402,7 @@ body {
    color: white;
    padding-bottom: 80px;
    font-size: 15px;
-   margin-right: 165px;
+   margin-right: 135px;
 }
 
 .customers__text button {
@@ -424,6 +424,15 @@ body {
    text-align: center;
    cursor: pointer;
 }
+.material-icons:hover {
+   color: grey;
+   transition: 0.2s;
+}
+
+.material-icons:active {
+   color: #061e37;
+   transition: 0.2s;
+}
 
 .customers-cards-box {
    overflow: hidden;
@@ -444,7 +453,7 @@ body {
    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.15);
    background-color: #ffffff;
    padding: 30px;
-   max-width: 650px;
+   width: 650px;
 }
 .customers-card-text h4 {
    font-size: 18px;
@@ -476,4 +485,8 @@ body {
 
 .opacity0 {
    display: none;
+}
+
+.customers-card.opacity0 + .customers-card {
+   display: flex;
 }

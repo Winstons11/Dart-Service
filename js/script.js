@@ -14,12 +14,10 @@ function slider() {
       cards[i].classList.add('opacity0');
    }
    cards[current].classList.remove('opacity0');
-
-
 }
 
 document.querySelector('.prev-btn').onclick = function () {
-   if (current - 2 == -2) {
+   if (current - 1 == -1) {
       current = cards.length - 1;
 
    } else {
