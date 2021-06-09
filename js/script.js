@@ -1,4 +1,4 @@
-const accordions = document.querySelectorAll('.services__box');
+const accordions = document.querySelectorAll('.services__rectangle');
 
 for (item of accordions) {
    item.addEventListener('click', function () {
