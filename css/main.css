@@ -322,13 +322,12 @@ body {
 
 .services__rectangle {
    max-width: 800px;
-   height: 50px;
+   height: auto;
    box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.5);
    align-items: center;
    border-radius: 5px;
    padding: 13px;
    margin: 20px auto;
-   overflow: hidden;
 }
 
 .services__box {
@@ -351,12 +350,11 @@ body {
 .icon__arrow {
    margin-left: auto;
    background-color: transparent;
-   transition: 0.5s ease-in;
 }
 
 .rectangle__box {
    margin-top: 25px;
-   display: flex;
+   display: none;
 }
 
 .rectangle__text p {
@@ -371,11 +369,11 @@ body {
    padding-bottom: 30px;
 }
 
-.services__rectangle.active {
-   height: auto;
+.services__box.active ~ .rectangle__box {
+   display: flex;
 }
 
-.services__rectangle.active button {
+.services__box.active button {
    transform: rotate(180deg);
 }
 
