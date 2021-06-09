@@ -350,6 +350,7 @@ body {
 .icon__arrow {
    margin-left: auto;
    background-color: transparent;
+   transition: 0.3s;
 }
 
 .rectangle__box {
