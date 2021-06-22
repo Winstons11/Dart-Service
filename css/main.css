@@ -442,7 +442,8 @@ body {
 }
 
 .customers-card {
-   display: flex;
+   /* display: flex; */
+   display: none;
    align-items: center;
    padding-bottom: 70px;
 }
@@ -467,6 +468,24 @@ body {
    color: #78909c;
 }
 
+/* .opacity0 {
+   display: none;
+}
+
+.customers-card.opacity0 + .customers-card {
+   display: flex;
+} */
+
+.customers-card-active {
+   display: block;
+}
+.customers-card-message {
+   display: flex;
+   align-items: center;
+}
+
+
+
 .team h2 {
    font-size: 45px;
    font-weight: 600;
@@ -484,10 +503,3 @@ body {
    margin-bottom: 50px;
 }
 
-.opacity0 {
-   display: none;
-}
-
-.customers-card.opacity0 + .customers-card {
-   display: flex;
-}
