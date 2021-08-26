@@ -468,14 +468,6 @@ body {
    color: #78909c;
 }
 
-/* .opacity0 {
-   display: none;
-}
-
-.customers-card.opacity0 + .customers-card {
-   display: flex;
-} */
-
 .customers-card-active {
    display: block;
 }
@@ -483,8 +475,6 @@ body {
    display: flex;
    align-items: center;
 }
-
-
 
 .team h2 {
    font-size: 45px;
